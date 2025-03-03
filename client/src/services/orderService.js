@@ -22,4 +22,5 @@ export const updateOrderStatus = async (id, status) => {
 export const deleteOrder = async (id) => {
     await api.delete(`/orders/${id}`);
     return id;
+    
 };
